@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -15,9 +16,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React - App version { process.env.REACT_APP_VERSION }
         </a>
       </header>
+      <Footer />
+      
     </div>
   );
 }
